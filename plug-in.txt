@@ -1,0 +1,53 @@
+1、simplified-chinese-menu
+	Atom的简体中文语言包，完整汉化，兼容所有已发布的版本Atom。
+
+
+2、tree-view-finder
+	左边菜单栏显示方式，类似Mac OS下的finder。
+
+
+3、minimap
+	类似sublim text右边的代码缩略图。
+
+
+4、linter和linter-jshint
+	该插件是用jshint来检查代码，想必大家都听说过jshint代码检查工具，它有一个配置文件.jshintrc，这个文件告诉jshint执行的检查规则。通过jshint能发现代码中存在的问题，可以及时避免bug的发生。linter-jshint插件基于atom规则来使用jshint，该插件可以在项目根目录下新建一个.jshintrc来告诉检查规则，也可以不用创建此文件来进行代码检查。
+注意：linter-jshint是依赖linter插件来使用的，也就是说必须先安装linter插件；因为linter是一个粗糙的检查，有很多针对专门项的代码检查。
+
+
+5、file-types和file-types-icon
+	file-types用来区分文件类型的，file-types-icon用来给不同的问题类型添加不同的图标。
+
+
+6、emmet
+	这款插件是用来支持zend-coding，Emmet的前身是大名鼎鼎的Zen coding，如果你从事Web前端开发的话，对该插件一定不会陌生。它使用仿CSS选择器的语法来生成代码，大大提高了HTML/CSS代码编写的速度
+
+
+7、autoclose-html
+	html标签自动比较。
+
+
+8、jquery-snippets
+	jquery代码提示，安装完之后要重新启动Atom。
+
+
+9、autoprefixer
+	浏览器兼容
+
+
+10、activate-power-mode
+	1> Combo Mode - Enabled 勾选后统计连击数
+	2> Combo Mode - Activation Threshold  超过此连击数后统计效果
+	3> Combo Mode - Exclamation Every  每到此值的倍数后显示连击特效
+	4> Combo Mode - Exclamation Texts  显示连击特效时随机出现的文字，用逗号隔开，默认值为【Super!, Radical!, Fantastic!, Great!, OMG, Whoah!, :O, Nice!, Splendid!, Wild!, Grand!, Impressive!, Stupendous!, Extreme!, Awesome!】
+	5> Combo Mode - Opacity  连击数透明度
+	6> Combo Mode - Streak Timeout  超过设定的秒数后，重新统计连击数
+	7> Excluded File Types 只作用于指定扩展名的文件，默认值为.即所有文件，设置规则为填写文件的扩展名，如有多个扩展名可用逗号隔开
+	8> Particles - Enabled  勾选后达到指定连击数后在光标处显示颗粒
+	9> Particles Colours  颗粒颜色，有三种设置
+ 	--Particles will be the color at the cursor 颗粒颜色与当前光标所在字的颜色一致
+  	--Particles will have random colours 颗粒颜色随机
+  	--Particles will have a fixed colour 颗粒颜色为指定颜色（可配置）
+	10> Play Audio - Enabled  勾选后达到指定连击数后每次按键播放音效
+	11> Play Audio - Volumn  音效音量
+	12> Screen Shake - Enabled  勾选后达到指定连击数后振动编辑区域
